@@ -1,0 +1,181 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+.lt{
+	position: relative;
+	float: left;
+}
+.rt{
+	position: relative;
+	float: right;
+}
+.tall{
+	height: 100%;
+}
+.full{
+	width: 100%;
+}
+.half{
+	width: 50%;
+}
+.third{
+	width: 33%;
+}
+.third-i{
+	width: 66%;
+}
+.forth{
+	width: 25%;
+}
+.forth-i{
+	width: 75%;
+}
+.center{
+	display: block;
+	margin: 0 auto
+}
+.main{
+	margin:0 auto;
+}
+.panel{
+
+	background-color: #fff;
+	margin-bottom: 10px;
+
+	outline:2px solid #ddd;
+}
+
+/*font*/
+h1{
+
+	padding: 5px;
+}
+/*==============Button==============*/
+.btn{
+	/*border-radius: 5px;*/
+	padding:5px;
+	color: white;
+	background-color: #eee;
+	position: relative;
+	  border: none;
+}
+.btn:hover{
+	opacity: 0.9;
+}
+
+/*-----------bg-----*/
+.00{
+	background-color: #000;
+}
+.aa{
+	background-color: #aaa;
+}
+.bb{
+	background-color: #bbb;
+}
+
+.cc{
+	background-color: #ccc;
+}
+
+.dd{
+	background-color: #ddd;
+}
+.ee{
+	background-color: #eee;
+}
+.ff{
+	background-color: #fff;
+}
+.img{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+@media (min-width: 922px) {
+			.tablet-only{
+				display:none !important;
+		    }
+		    .desktop-only {
+		        display:block !important;
+		    }
+		    .mobile-only {
+		        display:none !important;
+		    }
+		    #main{
+				 width:1200px;
+			}
+
+		}
+
+		@media (max-width: 991px)and (min-width: 768px) {
+		    .mobile-only {
+		        display:none !important;
+		    }
+		 	.tablet-only{
+				display:block !important;
+		    }
+		    .desktop-only {
+		        display:none !important;
+		    }
+		    #main{
+				 width:100%;
+			}
+			#player-remote-controller{
+		    	width: 100%;
+		    }
+		    #playlistpanel {
+		        width: 100%;
+		    }
+		    #player-panel {
+		        display:none !important;
+		    }
+			#qrcode {
+		        display:none !important;
+		    }
+
+			
+
+		}
+
+		@media (max-width:768px) {
+		    .desktop-only {
+		        display:none !important;
+		    }
+		    .tablet-only {
+		        display:none !important;
+		    }
+		    .mobile-only {
+		        display:block !important;
+		    }
+		    .player{
+		    	width: 100px;
+		    }
+		    #main{
+				 width:100%;
+			}
+			#player-remote-controller{
+		    	width: 100%;
+		    }
+		    #playlistpanel {
+		        width: 100%;
+		    }
+		    #player-panel {
+		        display:none !important;
+		    }
+
+
+			#qrcode {
+		        display:none !important;
+		    }
+
+
+
+		}
+
+
